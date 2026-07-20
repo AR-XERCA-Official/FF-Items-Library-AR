@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Free Fire Items Library</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/svg+xml" href="/Items/x.svg">
+  <meta name="author" content="AR XERCA">
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:title" content="Free Fire Items Library">
+  <meta property="og:image" content="https://ff-item.netlify.app/Items/x.png">
+  <meta property="og:description" content="Search Free Fire game items by Name or description to retrieve item ID, Name & Details.">
+  <meta property="og:url" content="https://ff-item.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FF items by AR XERCA">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free Fire Items Library">
+  <meta name="twitter:description" content="Search Free Fire game items by Name or description to retrieve item ID, Name & Details.">
+  <meta name="twitter:image" content="https://ff-item.netlify.app/Items/x.png">
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Free Fire is a multiplayer battle royale mobile game, developed and published by Garena for Android and iOS. Battle in Style and be the last survivor!">
+  <meta name="keywords" content="survival, last survivor, battle royale, free mobile game, garena game, craftland, ugc, shahgcreator, ff craftland, shah g Craftland, Craftland tutorial, shahg, ShahGCreator, craftland tutorial site, free fire craftland, ff-item, Free Fire Info, FFInfo, FFItems, ffitems, ItemsFF, Free Fire Item site, FFItems, FF-Items, ff items library, ff items jinxx, ff items 0xme ff items dev, ff items site">
+  <meta name="robots" content="index, follow">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Free Fire Items Library",
+    "url": "https://ff-item.netlify.app/"
+  }
+  </script>
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://ff-item.netlify.app/" />
+  <link rel="preconnect" href="https://raw.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://raw.githubusercontent.com">
+
+  <!-- Critical resource preloads: browser fetches these ASAP, in parallel -->
+  <link rel="preload" href="/cx.min.css" as="style">
+  <link rel="preload" href="/jv.min.js" as="script">
+  <link rel="preload" href="/data.msgpack.gz" as="fetch" crossorigin="anonymous">
+  <link rel="preload" href="/w.min.js" as="script">
+  <link rel="stylesheet" href="/cx.min.css">
+  <script src="/jv.min.js" defer></script>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/Items/x.svg">
+  <link rel="icon" type="image/svg+xml" sizes="32x32" href="/Items/x.svg">
+  <link rel="icon" type="image/svg+xml" sizes="16x16" href="/Items/x.svg">
+  <link rel="mask-icon" href="/Items/x.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#FFBA00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-55F3J8VB7D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-55F3J8VB7D');
+  </script>
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay">
+    <div class="loading-bar-wrapper">
+      <div class="loading-bar-container">
+        <div class="loading-bar" id="loadingBar"></div>
+      </div>
+      <div class="loading-percentage" id="loadingPercentage">0%</div>
+    </div>
+  </div>
+
+  <div class="loading-spinner" id="loadingSpinner">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <div class="header" id="header" style="display:none;">
+    <h1 class="header-title">FREE FIRE ITEMS LIBRARY</h1>
+    <div class="input-container">
+      <div class="search-container">
+        <input type="search" id="search" inputmode="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search by item Name, icon & item ID">
+        <img src="/icons/search.svg" class="search-icon" alt="Search">
+      </div>
+      <div class="filter-container">
+        <select id="tagFilter">
+          <option value="">All Tags</option>
+          <option value="OB54">OB54</option>
+          <option value="OB53">OB53</option>
+          <option value="OB52">OB52</option>
+          <option value="OB51">OB51</option>
+          <option value="OB50">OB50</option>
+          <option value="OB49">OB49</option>
+          <option value="OB48">OB48</option>
+          <option value="OB47">OB47</option>
+          <option value="OB46">OB46</option>
+          <option value="OB45">OB45</option>
+          <option value="OB44">OB44</option>
+          <option value="OB43">OB43</option>
+          <option value="OB42">OB42</option>
+          <option value="OB41">OB41</option>
+          <option value="OB40">OB40</option>
+          <option value="OB39">OB39</option>
+          <option value="OB38">OB38</option>
+          <option value="OB37">OB37</option>
+          <option value="OB36">OB36</option>
+          <option value="OB35">OB35</option>
+          <option value="OB34">OB34</option>
+          <option value="OB33">OB33</option>
+          <option value="OB32">OB32</option>
+          <option value="OB31">OB31</option>
+          <option value="OB30">OB30</option>
+          <option value="OB29">OB29</option>
+          <option value="OB28">OB28</option>
+          <option value="OB27">OB27</option>
+          <option value="OB26">OB26</option>
+        </select>
+        <select id="typeFilter">
+          <option value="">All Types</option>
+          <option value="Bundles">Bundles</option>
+          <option value="Top">Top</option><option value="Bottom">Bottom</option>
+          <option value="Shoe">Shoe</option><option value="Head">Head</option>
+          <option value="Mask">Mask</option><option value="Facepaint">Facepaint</option>
+          <option value="" disabled>──────</option>
+          <option value="Weapon Skins">Weapon Skins</option>
+          <option value="Gloo Walls">Gloo Walls</option>
+          <option value="Fist Skins">Fist Skins</option>
+          <option value="Grenade Skin">Grenade Skin</option>
+          <option value="Final Shot">Final Shot</option>
+          <option value="Finishing Move">Finishing Move</option>
+          <option value="Posture">Posture</option>
+          <option value="Weapon Crates">Weapon Crates</option>
+          <option value="" disabled>──────</option>
+          <option value="Emote">Emote</option>
+          <option value="Super Emote">Super Emote</option>
+          <option value="Arrival Animation">Arrival Animation</option>
+          <option value="Look Changer">Look Changer</option>
+          <option value="Vehicle Skins">Vehicle Skins</option>
+          <option value="Loot Box">Loot Box</option>
+          <option value="Bag Skins">Bag Skins</option>
+          <option value="Parachute">Parachute</option>
+          <option value="Skyboard">Skyboard</option>
+          <option value="Skywings">Skywings</option>
+          <option value="Hyper Book">Hyper Book</option>
+          <option value="" disabled>──────</option>
+          <option value="Banners">Banners</option>
+          <option value="Avatars">Avatars</option>
+          <option value="Profile Pin">Profile Pin</option>
+          <option value="Battle Card">Battle Card</option>
+          <option value="Skill Skins">Skill Skins</option>
+          <option value="Music">Music</option>
+          <option value="Voice Packs">Voice Packs</option>
+          <option value="Photo Frame">Photo Frame</option>
+          <option value="Avatar Frame">Avatar Frame</option>
+          <option value="Photo Pose">Photo Pose</option>
+          <option value="Sticker">Stickers</option>
+          <option value="Titles">Titles</option>
+          <option value="" disabled>──────</option>
+          <option value="Characters">Characters</option>
+          <option value="Pets">Pets</option>
+          <option value="Pet Skill">Pet Skill</option>
+          <option value="Pet Skin">Pet Skin</option>
+          <option value="Pet Emote">Pet Emote</option>
+          <option value="" disabled>──────</option>
+          <option value="Bundle Create">Bundle Create</option>
+          <option value="Exchange Tokens">Exchange Tokens</option>
+          <option value="Loot Crates">Loot Crates</option>
+          <option value="Choice Crates">Choice Crates</option>
+          <option value="Vouchers">Vouchers</option>
+        </select>
+        <select id="rareFilter">
+          <option value="">All Rare</option>
+          <option value="WHITE">⬜COMMON</option>
+          <option value="GREEN">🟩UNCOMMON</option>
+          <option value="BLUE">🟦RARE</option>
+          <option value="PURPLE">🟪EPIC</option>
+          <option value="PURPLE_PLUS">🟣EPIC++</option>
+          <option value="ORANGE">🟧MYTHIC</option>
+          <option value="ORANGE_PLUS">🟠MYTHIC++</option>
+          <option value="RED">🟥ARTIFACT</option>
+        </select>
+      </div>
+    </div>
+    <!-- Dev button -->
+    <button class="dev-copy-btn" id="devCopyBtn" onclick="copyAllIds()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      Copy Page IDs (<span id="devCount">0</span>)
+    </button>
+  </div>
+
+  <!-- Grid -->
+  <div class="container" id="container" style="display:none;">
+    <div class="grid-container" id="iconGrid"></div>
+    <div class="pagination-container">
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <div class="modal-img-wrap">
+        <div class="modal-img-shimmer shimmer" id="modalShimmer"></div>
+        <img id="modalImage" alt="Item Image" style="-webkit-touch-callout:none;pointer-events:none;">
+      </div>
+      <div class="modal-info">
+        <div class="modal-item-name" id="modalName"></div>
+        <div class="modal-divider"></div>
+        <div class="modal-row">
+          <span class="modal-label">Item id :</span>
+          <span class="modal-value-wrap">
+            <span class="modal-value" id="modalItemId"></span>
+            <button class="copy-btn" id="copyIdBtn" title="Copy Item ID">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            </button>
+          </span>
+        </div>
+        <div class="modal-row">
+          <span class="modal-label">Icon id :</span>
+          <span class="modal-value" id="modalIconName"></span>
+        </div>
+        <div class="modal-row">
+          <span class="modal-label">Description :</span>
+          <span class="modal-value" id="modalDescription"></span>
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="modal-share-btn" id="modalShareBtn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share
+        </button>
+        <button class="modal-close" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Settings FAB -->
+  <button class="fab-settings" id="fabSettings" title="Settings">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="3"/>
+      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+    </svg>
+  </button>
+
+  <!-- Settings Bottom Sheet -->
+  <div class="settings-overlay" id="settingsOverlay">
+    <div class="settings-panel" id="settingsPanel">
+      <div class="settings-handle"></div>
+      <div class="settings-header">
+        <span class="settings-title">Settings</span>
+        <button class="settings-close-btn" id="settingsCloseBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- Dev Mode -->
+      <div class="settings-row">
+        <div class="settings-row-left">
+          <div class="settings-row-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="settings-row-text">
+            <div class="settings-row-label">Developer Mode</div>
+            <div class="settings-row-sub">Tap cards to copy IDs</div>
+          </div>
+        </div>
+        <label class="ios-toggle">
+          <input type="checkbox" id="devToggle" onchange="onDevToggle(this.checked)">
+          <span class="ios-toggle-track"><span class="ios-toggle-thumb"></span></span>
+        </label>
+      </div>
+
+      <!-- Share Page -->
+      <div class="settings-row settings-row-btn" id="sharePageRow">
+        <div class="settings-row-left">
+          <div class="settings-row-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          </div>
+          <div class="settings-row-text">
+            <div class="settings-row-label">Share Page</div>
+            <div class="settings-row-sub">Copy URL with current filters</div>
+          </div>
+        </div>
+        <span class="settings-row-action" id="sharePageStatus">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      </div>
+
+      <div class="settings-divider"></div>
+      <div class="settings-section-label">Connect with AR XERCA</div>
+      <div class="settings-socials">
+        <a href="https://t.me/Z_7_K_R" target="_blank" rel="noopener noreferrer" class="settings-social-link">
+          <img src="/icons/tg.svg" alt="Telegram"><span>Telegram</span>
+        </a>
+      </div>
+      <div class="settings-footer">© AR XERCA <span id="settingsYear"></span></div>
+    </div>
+  </div>
+
+  </body>
+</html>
