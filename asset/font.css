@@ -1,1 +1,51 @@
+@font-face {
+    font-family: 'GFF ShahGCreator';
+    src: url('/Fonts/GFF-Latin-Thin.eot');
+    src: local('GFF ShahGCreator Thin'), local('GFF-Latin-Thin'),
+        url('/Fonts/GFF-Latin-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/GFF-Latin-Thin.woff2') format('woff2'),
+        url('/Fonts/GFF-Latin-Thin.woff') format('woff'),
+        url('/Fonts/GFF-Latin-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'GFF ShahGCreator';
+    src: url('/Fonts/GFF-Latin-Bold.eot');
+    src: local('GFF ShahGCreator Bold'), local('GFF-Latin-Bold'),
+        url('/Fonts/GFF-Latin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/GFF-Latin-Bold.woff2') format('woff2'),
+        url('/Fonts/GFF-Latin-Bold.woff') format('woff'),
+        url('/Fonts/GFF-Latin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GFF ShahGCreator';
+    src: url('/Fonts/GFF-Latin-Regular.eot');
+    src: local('GFF ShahGCreator Regular'), local('GFF-Latin-Regular'),
+        url('/Fonts/GFF-Latin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/GFF-Latin-Regular.woff2') format('woff2'),
+        url('/Fonts/GFF-Latin-Regular.woff') format('woff'),
+        url('/Fonts/GFF-Latin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GFF ShahGCreator';
+    src: url('/Fonts/GFF-Latin-Medium.eot');
+    src: local('GFF ShahGCreator Medium'), local('GFF-Latin-Medium'),
+        url('/Fonts/GFF-Latin-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/Fonts/GFF-Latin-Medium.woff2') format('woff2'),
+        url('/Fonts/GFF-Latin-Medium.woff') format('woff'),
+        url('/Fonts/GFF-Latin-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
